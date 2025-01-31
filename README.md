@@ -47,13 +47,13 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.json_producer_case
+py -m producers.json_producer_hatfield
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
+python3 -m producers.json_producer_hatfield
 ```
 
 What did we name the topic used with JSON data? 
@@ -69,13 +69,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case
+py -m consumers.json_consumer_hatfield
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_hatfield
 ```
 
 What did we name the topic used with JSON data? 
@@ -91,6 +91,21 @@ You will need to:
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the producers folder.
 
+Use the commands below to activate .venv, and start the producer. 
+
+Windows:
+
+```shell
+.venv\Scripts\activate
+py -m producers.csv_producer_hatfield
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m producers.csv_producer_hatfield
+```
+
 What did we name the topic used with csv data? 
 Hint: See the producer code and [.env](.env).
 
@@ -103,6 +118,20 @@ You will need to:
 3. Know the command that works on your machine to execute python (e.g. py or python3).
 4. Know how to use the -m (module flag to run your file as a module).
 5. Know the full name of the module you want to run. Hint: Look in the consumers folder.
+
+Use the commands below to activate .venv, and start the consumer. 
+
+Windows:
+```shell
+.venv\Scripts\activate
+py -m consumers.csv_consumer_hatfield
+```
+
+Mac/Linux:
+```zsh
+source .venv/bin/activate
+python3 -m consumers.csv_consumer_hatfield
+```
 
 What did we name the topic used with csv data? 
 Hint: See the consumer code and [.env](.env).
